@@ -83,7 +83,8 @@
     <plugin name="cordova-plugin-ionic-webview" spec="^3.0.0" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.0.5" />
     <plugin name="cordova-hot-code-push-plugin" spec="1.5.3" />
-    <engine name="android" spec="7.1.4" />
     <chcp>
+        <config-file url="https://raw.githubusercontent.com/jihuayu/Ionic-test/master/myApp/www/chcp.json" />
     </chcp>
+    <engine name="android" spec="7.1.4" />
 </widget>
