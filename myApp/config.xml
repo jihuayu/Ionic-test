@@ -85,6 +85,9 @@
     <plugin name="cordova-hot-code-push-plugin" spec="1.5.3" />
     <chcp>
         <config-file url="https://raw.githubusercontent.com/jihuayu/Ionic-test/master/myApp/www/chcp.json" />
+        <auto-download enabled="true" />
+        <auto-install enabled="true" />
+        <native-interface version="1" />
     </chcp>
     <engine name="android" spec="7.1.4" />
 </widget>
